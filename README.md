@@ -9,7 +9,7 @@ to the SigProfiler suite of tools (i.e., SigProfilerMatrixGenerator, SigProfiler
 
 ## Basic usage
 
-To generate the SBS / ID / DNP matrices using SigProfilerMatrixGenerator and place them in a directory called "sigprof\§_input":
+To generate the SBS / ID / DNP matrices using SigProfilerMatrixGenerator and place them in a directory called "sigprof\_input":
 ```
 python generate_matrix.py -m <input.maf> -d sigprof_input
 ```
