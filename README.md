@@ -14,7 +14,7 @@ To generate the SBS / ID / DNP matrices using SigProfilerMatrixGenerator and pla
 python generate_matrix.py -m <input.maf> -d sigprof_input
 ```
 
-To run SBS96 analysis for 1 to 7 sigantures (1000 iterations each) on 16 threads:
+To run SBS96 analysis for 1 to 7 signatures (1000 iterations each) on 16 threads:
 ```
 time python scripts/run_sigprofiler.py -c 16 -i 1000 -s 1 -e 7 -t sigprof_input/output/SBS/PROJECT.SBS96.all -d <output_dir>
 ```
