@@ -2,7 +2,7 @@ import argparse
 from os.path import dirname, isdir
 from os import mkdir, getcwd
 import shutil
-from SigProfilerMatrixGenerator import SigProfilerMatrixGeneratorFunc as matGen
+from SigProfilerMatrixGenerator.scripts import SigProfilerMatrixGeneratorFunc as matGen
 
 def parse_args():
     parser = argparse.ArgumentParser()
