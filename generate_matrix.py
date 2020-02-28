@@ -1,5 +1,5 @@
 import argparse
-from os.path import dirname, isdir
+from os.path import dirname, isdir, basename
 from os import mkdir, getcwd
 import shutil
 from SigProfilerMatrixGenerator.scripts import SigProfilerMatrixGeneratorFunc as matGen
@@ -29,10 +29,11 @@ if __name__ == "__main__":
             mkdir(args.directory)
     except:
         print("ERROR: creation of directory", args.directory, "failed. Please use the -d option to create a valid directory.")
+
     try:
-        shutil.copyfile(args.maf, args.directory + "/" + args.maf)
+        shutil.copyfile(args.maf, args.directory + "/" + basename(args.maf))
     except:
-        print("File copy failed.", args.maf, args.directory + "/" + args.maf)
+        print("File copy failed.", args.maf, args.directory + basename(args.maf))
 
     matrices = matGen.SigProfilerMatrixGeneratorFunc(args.project, "GRCh37", args.directory,
             plot=args.plot, exome=False,
