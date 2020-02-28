@@ -14,4 +14,4 @@ if __name__ == "__main__":
         genInstall.install(args.ref, rsync=False, bash=True)
     except:
         print("ERROR: reference installation failed")
-        return 1
+        raise()
