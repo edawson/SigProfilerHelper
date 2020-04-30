@@ -172,6 +172,9 @@ workflow SigprofilerSigs{
   output{
       File tidysig_SBS_plots = SBSPlot.tidysig_plots
       File tidysig_ID_plots = IDPlot.tidysig_plots
+      File sbs_results_tarball = SBS_Extract.resultsTarball,
+      File id_results_tarball = ID83_Extract.resultsTarball,
+      File presig_id_counts = GenerateID83Matrix.idMatrixTSV
   }
 
 
