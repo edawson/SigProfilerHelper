@@ -1,0 +1,13 @@
+{
+    "SigprofilerSigs.id_start": 1,
+    "SigprofilerSigs.id_end": 8,
+    "SigprofilerSigs.id_iters": 1000,
+    "SigprofilerSigs.maf": "<MAF>",
+    "SigprofilerSigs.refFA": "<reference genome fasta>",
+    "SigprofilerSigs.refFAI": "<reference genome fasta index>",
+    "SigprofilerSigs.sbs_start": 1,
+    "SigprofilerSigs.sbs_end": 8,
+    "SigprofilerSigs.sbs_iters": 1000,
+    "SigprofilerSigs.extractThreads" : 16,
+    "SigprofilerSigs.tag": "<a label/tag for analyses>"
+}
