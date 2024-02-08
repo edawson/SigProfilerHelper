@@ -3,7 +3,7 @@ from SigProfilerMatrixGenerator import install as genInstall
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument("-r", "--reference", dest="ref", default="GRCh37", help="The name of the reference to install", type=str)
+    parser.add_argument("-r", "--reference", dest="ref", default="GRCh38", help="The name of the reference to install", type=str)
 
     return parser.parse_args()
 

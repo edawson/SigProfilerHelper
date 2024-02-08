@@ -1,2 +1,4 @@
-SigProfilerExtractor==1.0.3
-SigProfilerMatrixGenerator==1.1.5
+#SigProfilerExtractor==1.0.3
+#SigProfilerMatrixGenerator==1.1.5
+SigProfilerExtractor==1.1.23
+SigProfilerMatrixGenerator==1.2.23
